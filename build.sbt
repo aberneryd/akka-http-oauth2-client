@@ -9,7 +9,7 @@ scalaVersion := "2.12.3"
 crossScalaVersions := Seq("2.11.11", "2.12.3")
 
 lazy val akkaHttpVersion = "10.0.10"
-lazy val circeVersion    = "0.8.0"
+lazy val circeVersion    = "0.9.1"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http"                   % akkaHttpVersion,
